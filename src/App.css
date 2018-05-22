@@ -26,3 +26,93 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+.panel,
+.panel-body {
+  box-shadow: none;
+}
+
+.panel-group .panel-heading {
+  padding: 0;
+}
+
+.panel-group .panel-heading a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  position: relative;
+  color: #2e6da4;
+}
+
+.panel-group .panel-heading a:after {
+  content: '-';
+  float: left;
+  padding-right: 10px;
+  font-size:18px
+}
+
+.panel-group .panel-heading a.collapsed:after {
+  content: '+';
+  padding-right: 10px;
+  font-size:18px
+}
+.cost-title{
+  color:darkblue;
+  font-weight: bold;
+  font-size: 28px;
+}
+.form-group{
+  text-align: left
+}
+
+.flourida .section-one{
+  padding: 0;
+  background-color: #f5f5f5;
+}
+.flourida .section-two{
+  padding: 30px 60px;
+}
+.flourida .description{
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom:25px;
+}
+
+.flourida .information{
+  background: darkblue;
+  color:white;
+}
+.default-border{
+  border: 1px solid #ddd;
+}
+.offset-bottom-10{
+  margin-bottom:10px
+}
+.btn-secondary{
+  background-color: #a6c!important;
+}
+.padding-none{
+  padding: 0
+}
+.pl-none{
+  padding-left: 0
+}
+.pr-none{
+  padding-right: 0
+}
+
+.search-button{
+  padding-top: 24px;
+}
+
+.rounded-button{
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: white;
+  padding: 6px !important;
+  border-color: #ddd;
+}
